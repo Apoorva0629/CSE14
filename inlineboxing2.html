@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+
+    <style>
+        body {
+            background-color: #2f3c4f;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 40px;
+            color: white;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+        }
+
+        .margin {
+            background-color: #ff6f47;
+            padding: 40px;
+            display: inline-block;
+        }
+
+        .border {
+            background-color: #0096c7;
+            padding: 40px;
+        }
+
+        .padding {
+            background-color: #ffd166;
+            padding: 40px;
+        }
+
+        .content {
+            background-color: #06d6a0;
+            padding: 60px;
+            color: white;
+            font-size: 22px;
+        }
+
+        .label {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Box Model</h1>
+
+    <div class="margin">
+        <div class="label">Margin</div>
+
+        <div class="border">
+            <div class="label">Border</div>
+
+            <div class="padding">
+                <div class="label">Padding</div>
+
+                <div class="content">
+                    Content
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
